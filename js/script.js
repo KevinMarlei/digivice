@@ -38,14 +38,14 @@ formSearch.addEventListener('submit', async (eventInput) => {
             if (digimonData && imageURL) {
                 imageAPI.style.display = 'block';
                 imageAPI.src = imageURL;
-                if (inputText === "wargreymon" || inputText === "vikemon" || inputText === "rosemon" || inputText === "seraphimon" || inputText === "magnadramon" || inputText === "herculeskabuterimon" || inputText === "metalgarurumon" || inputText === "phoenixmon" || inputText === "omnimon" || inputText === "imperialdramon") {
+                if (inputText === "wargreymon" || inputText === "vikemon" || inputText === "rosemon" || inputText === "seraphimon" || inputText === "magnadramon" || inputText === "herculeskabuterimon" || inputText === "metalgarurumon" || inputText === "phoenixmon" || inputText === "omnimon" || inputText === "imperialdramon"){
                     imageAPI.style.display = 'block';
-                    bordaColorida.style.display = 'block'
-                    if (digimonsComVideos.includes(inputText)) {
+                    bordaColorida.style.display = 'block' 
+                    if(digimonsComVideos.includes(inputText)){
                         showVideo(inputText);
                     }
-
-                } else {
+                                       
+                }else{
 
                     imageAPI.style.display = 'block';
                     bordaColorida.style.display = 'none';

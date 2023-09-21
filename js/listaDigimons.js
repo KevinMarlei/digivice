@@ -64,7 +64,7 @@ async function renderSelectedDigimon(index, allDigimons) {
                 const borda = document.querySelector('.borda');
                 if (digimon.name.toLowerCase() === "wargreymon" || digimon.name.toLowerCase() === "vikemon" || digimon.name.toLowerCase() === "rosemon" || digimon.name.toLowerCase() === "seraphimon" || digimon.name.toLowerCase() === "magnadramon" || digimon.name.toLowerCase() === "herculeskabuterimon" || digimon.name.toLowerCase() === "metalgarurumon" || digimon.name.toLowerCase() === "phoenixmon" || digimon.name.toLowerCase() === "omnimon" || digimon.name.toLowerCase() === "imperialdramon") {
                     borda.style.display = 'block';
-
+                
                 } else {
                     borda.style.display = 'none';
                 }
