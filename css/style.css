@@ -16,7 +16,7 @@
      height: 100vh;
      width: 100%;
      overflow: hidden;
-     background-image: url(/DigiMemory/image/bg-evolution.jpg);
+     background-image: url(../image/bg-evolution.jpg);
      background-position: center;
      background-size:cover;
  }
@@ -29,7 +29,7 @@
      align-items: center;
      height: 100vh;
      width: 100%;
-     background-image: url(/DigiMemory/image/400px-Railroad_plains.jpg);
+     background-image: url(../image/400px-Railroad_plains.jpg);
      background-position: center;
      background-repeat: no-repeat;
      background-size: 500px 500px;
@@ -37,7 +37,7 @@
  }
 
 .videos{
-    background-image: url(/DigiMemory/image/Digimon.webp);
+    background-image: url(../image/Digimon.webp);
     background-size: cover;
     border: none;
     width: 30rem;
@@ -58,7 +58,7 @@
  }
 
  .digivice {
-     background-image: url(/DigiMemory/image/Digivice_tri.webp);
+     background-image: url(../image/Digivice_tri.webp);
      background-position: center;
      background-repeat: no-repeat;
      background-size: 380px auto;
@@ -143,7 +143,7 @@ input{
     flex: 1;
  }
  .digimon-list-container {
-    background-image: url(/DigiMemory/image/evolution-background.png);
+    background-image: url(../image/evolution-background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -154,7 +154,7 @@ input{
     position: absolute;
     z-index: 1;
     transform: translateY(200%);
-    margin-bottom: 5px;
+    margin-bottom: 35px;
 }
 
  /* CSS para a lista de Digimons */
