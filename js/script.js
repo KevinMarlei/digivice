@@ -43,6 +43,7 @@ formSearch.addEventListener('submit', async (eventInput) => {
                     bordaColorida.style.display = 'block' 
                     if(digimonsComVideos.includes(inputText)){
                         showVideo(inputText);
+                        console.log(showVideo(inputText));
                     }
                                        
                 }else{
